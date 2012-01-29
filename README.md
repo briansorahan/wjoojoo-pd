@@ -1,42 +1,42 @@
-# wjoojoo-pd
+# wjoojoo-pd  
 
 ### My personal collection of Pd patches.
 
-- ad~.pd
+- ad~.pd  
     Attack-Decay envelope.
 
-- adsr~.pd
+- adsr~.pd  
     Attack-Decay-Sustain-Release envelope.
 
-- delayngin~.pd
+- delayngin~.pd  
     Delay module.
 
-- fm_osc~.pd
+- fm_osc~.pd  
     Fm oscillator.
 
-- fm_synth_voice~.pd
+- fm_synth_voice~.pd  
     Monophonic FM Synth.
 
-- frq.pd
+- frq.pd  
     Samples-to-hz converter.
 
-- gain~.pd
+- gain~.pd  
     Input gain with 10ms lag.
 
-- gate~.pd
+- gate~.pd  
     Audio gate.
 
-- lfongin~.pd
+- lfongin~.pd  
     LFO.
 
-- rate~.pd
+- rate~.pd  
     Implements the MaxMSP rate~ object.
 
-- ringmod_osc~.pd
+- ringmod_osc~.pd  
     Ringmod oscillator.
 
-- sampngin~.pd
+- sampngin~.pd  
     Simple sampler engine.
 
-- xfade~.pd
+- xfade~.pd  
     Crossfade.
