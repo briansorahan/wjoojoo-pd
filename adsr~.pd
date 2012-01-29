@@ -1,4 +1,4 @@
-#N canvas 825 318 833 670 10;
+#N canvas 826 318 833 670 10;
 #X obj 143 590 outlet~;
 #X obj 125 454 vline~;
 #X obj 87 28 inlet;
@@ -91,10 +91,17 @@
 #X obj 135 535 gain~;
 #X floatatom 188 531 10 0 0 0 - - -;
 #X floatatom 74 290 10 0 0 0 - - -;
-#X text 283 464 arguments are: 1=gain \, 2=attack \, 3=decay \, 4=sustain
+#X text 334 417 arguments are: 1=gain \, 2=attack \, 3=decay \, 4=sustain
 \, 5=release \, 6=threshold;
 #X floatatom 341 366 10 0 0 0 - - -;
 #X obj 380 291 sel 0;
+#X text 330 456 Messages:;
+#X text 338 474 float: triggers envelope;
+#X text 338 492 a \, d \, s \, r: control envelope shape;
+#X text 338 510 gain: overall envelope level;
+#X text 338 528 thresh: determines the threshold for the float-trigger.
+defaults to 0 (so any float above zero will trigger the envelope).
+;
 #X connect 1 0 22 0;
 #X connect 2 0 4 0;
 #X connect 3 0 0 0;
