@@ -1,4 +1,6 @@
 # wjoojoo-pd  
+# 
+# Brian Sorahan
 
 ### My personal collection of Pd patches.
 
